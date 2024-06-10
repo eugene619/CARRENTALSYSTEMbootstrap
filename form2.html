@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form2</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+    <style>
+        label{
+            margin-right: 20px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+    <legend class="text-center"><b>Sample Form</b></legend>
+    <form action="">
+    <div class="row mb-2">
+        <div class="col d-flex">
+            <label class="form-label" for="pname">Partner Name</label>
+            <input class="form-control" type="text" id="pname" required="required">
+        </div>
+        <div class="col d-flex">
+            <label class="form-label" for="pid">Partner Email ID</label>
+            <input class="form-control" type="email" id="pid" required="required">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col d-flex">
+             <label for="plname">Partner Legal Name</label>
+            <input class="form-control" type="text" id="plname" required="required">
+        </div>
+        <div class="col d-flex">
+            <label for="mob">Partner Mobile</label>
+            <input class="form-control" type="tel" id="mob" required="required">
+        </div>
+    </div>
+    <div class="mb-2 d-flex">
+        <label for="ad">Partner Address</label>
+        <input class="form-control" type="text" id="ad" required="required">
+    </div>
+     <div class="row mb-3">
+        <div class="col d-flex">
+             <label for="csd">Contract Start Date</label>
+            <input  class="form-control" placeholder="Date Start" type="text" id="csd"  required="required">
+        </div>
+        <div class="col d-flex">
+            <label for="ced">Contract Expiry Date</label>
+            <input class="form-control" type="text" id="ced" placeholder="Date End" required="required">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col d-flex">
+             <label for="mila">Minimum Loan Amount</label>
+            <input class="form-control" type="text" id="mila" required="required">
+        </div>
+        <div class="col d-flex">
+            <label for="mala">Maximum Loan Amount</label>
+            <input class="form-control" type="text" id="mala" required="required">
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col d-flex">
+             <label for="ir">Interest Rate</label>
+            <input class="form-control" type="text" id="ir" required="required">
+        </div>
+        <div class="col d-flex">
+            <label for="da">Deposit Amount</label>
+            <input class="form-control" type="text" id="da" required="required">
+        </div>
+    </div>
+    <div>
+        <button class="btn btn-primary ">Save</button>
+    </div>
+
+</form>
+
+</div>
+
+</body>
+</html>
